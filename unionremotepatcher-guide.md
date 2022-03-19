@@ -20,3 +20,6 @@ Alongside the UnionRemotePatcher Application, you will also need to download the
 Install the .NET Runtime appropriate for your platform, and then unzip UnionRemotePatcher. You'll need to find the executable for your platform - if you're running on Windows, look for the file ``UnionRemotePatcher.Wpf.exe``, and if you're on Linux, run ``UnionRemotePatcher.Gtk``.
 
 ## Preparing your Console
+In order for UnionRemotePatcher to work properly, you will need a PlayStation 3 console with either CFW or PS3HEN, and a way to host an FTP server for your console. We strongly recommend installing [WebMan-MOD](https://github.com/aldostools/webMAN-MOD/releases) on your system as it will provide UnionRemotePatcher with everything it needs in order for you to patch both PSN/Digital and Disc copies.
+
+If you are patching a PSN/Digital copy of LittleBigPlanet, you will have to complete one other quick step within WebMan-MOD to enable a required feature. To do so, navigate to your PS3's IP address inside a web brower;
