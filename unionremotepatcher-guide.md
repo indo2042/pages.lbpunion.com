@@ -38,6 +38,8 @@ Within the Setup tab, expand the section ``XMB/In-Game PAD Shortcuts``, enable `
 
 ![WebMan-MOD Setup Screenshot](https://lbpunion.github.io/WebManSetup2.png)
 
+Restart your PS3 and re-enable HEN if neccessary.
+
 ## Getting your title's Game ID
 
 In order for UnionRemotePatcher to find the game you're attempting to patch, you need to provide it with a Game ID. This is the name of a folder where the game files are installed on your PS3.
