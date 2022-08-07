@@ -30,17 +30,17 @@ and you will need to start HEN every time you want to play a patched copy of Lit
 If you are patching a PSN/Digital copy of LittleBigPlanet, you will have to complete one other quick step within WebMan-MOD to enable a required feature. 
 To do so, navigate to your PS3's IP address inside a web brower, and navigate to the Setup screen using the Setup button;
 
-![WebMan-MOD Home Screenshot](https://lbpunion.github.io/WebManSetup1.png)
+![WebMan-MOD Home Screenshot](https://pages.lbpunion.com/WebManSetup1.png)
 
 ##### If you're not sure how to access this page, open your XMB and enable HEN if neccessary, then hold the START and SELECT buttons together on your controller to get a notification listing out some information about your console;
 
-![XMB Screenshot](https://lbpunion.github.io/InfoNotification.png)
+![XMB Screenshot](https://pages.lbpunion.com/InfoNotification.png)
 
 ##### As you can see in the top right corner, the IP address of my PS3 console is 192.168.0.235 - which is what I entered as the URL in Firefox.
 
 Within the Setup tab, expand the section ``XMB/In-Game PAD Shortcuts``, enable ``PS3MAPI``, and ``Save``;
 
-![WebMan-MOD Setup Screenshot](https://lbpunion.github.io/WebManSetup2.png)
+![WebMan-MOD Setup Screenshot](https://pages.lbpunion.com/WebManSetup2.png)
 
 Restart your PS3 and re-enable HEN if neccessary.
 
@@ -53,7 +53,7 @@ If you have a disc copy, the easiest way to find this is to look at the spine of
 the Game ID can be found next to the ESRB rating symbols on US copies of LittleBigPlanet. 
 In this case, LittleBigPlanet 2 Special Edition's Game ID, according to the artwork, is BCUS98372.
 
-![Game Cover](https://lbpunion.github.io/IMG_20220319_105828.jpg)
+![Game Cover](https://pages.lbpunion.com/IMG_20220319_105828.jpg)
 
 But this isn't always a perfect method, either. 
 For one reason or another, the ID on your case might not match the ID on the data of your disc, and of course, if you have a digital copy, this isn't going to be helpful. 
@@ -62,14 +62,14 @@ For these reasons, we recommend that you also use WebMan-MOD to check the file s
 Navigate to the Files page, enter ``/dev_hdd0/`` and go into the ``game`` folder (not ``GAMES``). 
 Here, you'll see a bunch of different Game IDs for different games, DLC installations, and save data on your system.
 
-![WebMan-MOD Games folder](https://lbpunion.github.io/WebManSetup3.png)
+![WebMan-MOD Games folder](https://pages.lbpunion.com/WebManSetup3.png)
 
 Hover over some of the folders with your mouse. 
 In the screenshot, as I hovered over NPUA81116, you can see that the LittleBigPlanet 3 logo was displayed, meaning this is likely a LittleBigPlanet 3 game folder.
 
 In order to verify that this is the actual game folder, and not a DLC folder for instance, we can go inside the folder, and then entering the ``USRDIR`` folder if it exists.
 
-![WebMan-MOD USRDIR folder lbp3](https://lbpunion.github.io/WebManSetup4.png)
+![WebMan-MOD USRDIR folder lbp3](https://pages.lbpunion.com/WebManSetup4.png)
 
 As you can see, the ``EBOOT.BIN`` file, which UnionPatcher patches, is located in this folder. 
 **If there is no EBOOT.BIN, or no USRDIR folder, it's not the correct folder! 
@@ -79,12 +79,12 @@ If you didn't see a LittleBigPlanet logo of some kind when navigating into this 
 
 For this example, you will want to select "Remote Patcher (PS3)" when opening UnionPatcher:
 
-![UnionPatcher mode selection screenshot](https://lbpunion.github.io/RemotePatchScreenshot.png)
+![UnionPatcher mode selection screenshot](https://pages.lbpunion.com/RemotePatchScreenshot.png)
 
 Using all the information that we have gathered throughout the process (our PS3's local IP address, and the Game ID of the game you wish to patch)
 you can go to UnionPatcher and enter your information.
 
-![UnionPatcher Screenshot](https://lbpunion.github.io/UnionPatcherScreenshot.png)
+![UnionPatcher Screenshot](https://pages.lbpunion.com/UnionPatcherScreenshot.png)
 
 Fill out the boxes as necessary. Keep in mind that for LittleBigPlanet 3, the server URL must start with ``https``. For other versions, use ``http``.
 
