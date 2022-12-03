@@ -16,8 +16,8 @@ or, if you want direct links (may be slightly out of date);
 ## Running the Patcher
 Install the .NET Runtime appropriate for your platform, and then unzip UnionPatcher. 
 
-You'll need to find the executable for your platform - if you're running on Windows, look for the file ``UnionPatcher.Windows.exe``,
-and if you're on Linux, run ``UnionPatcher.Linux``. The main UI should open.
+You'll need to find the executable for your platform - if you're running on Windows, look for the file ``LBPUnion.UnionPatcher.Gui.Windows.exe``,
+and if you're on Linux, run ``LBPUnion.UnionPatcher.Gui.Linux``. The main UI should open.
 
 ## Preparing your Console
 In order for UnionPatcher to work properly, you will need a PlayStation 3 console with either CFW or PS3HEN, and a way to host an FTP server for your console. 
